@@ -1,0 +1,110 @@
+#container{
+    margin-left: 100px;
+}
+
+.navbar{
+    flex-direction: row;
+    display: flex;
+    position: relative;
+}
+
+.remove{
+    margin-left: 83px;
+    margin-top: -40px;
+}
+
+.bg{
+    margin-left: 200px;
+    margin-top: -40px;
+}
+
+.tools{
+    margin-left: 360px;
+    margin-top: -33px;
+}
+
+.price{
+    margin-left: 465px;
+    margin-top: -35px;
+}
+
+.login{
+    text-align: right;
+    margin-right: 100px;
+    margin-top: -40px;
+}
+
+.btn{
+    border-radius: 30%;
+    border: none;
+    padding: 10px;
+}
+
+.btn:hover{
+    background-color: darkgray;
+}
+
+.btn:active{
+    transform: scale(0.95); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.button{
+    text-align: right;
+    margin-top: -45px;
+}
+
+header{
+    border-bottom: 1px solid lightgray ;
+    padding-bottom: 20px;
+}
+
+#container h1,p{
+    margin-left: 150px;
+}
+
+#imageupload{
+    float: right;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(40%, 200%);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    margin-top: -800px;
+    font-size: larger;
+    display:flex;
+    flex-direction: column;
+    line-height: 2.5;
+    padding: 60px;
+    padding-top: 100px;
+    border-radius: 10px;
+}
+
+.p{
+    text-align: center;
+    font-size: 16px;
+    width: 200px;
+}
+
+.btn2{
+    border: none;
+    width: 220px;
+    border-radius: 40px;
+    background-color: rgba(28, 79, 183, 0.836);
+    padding: 20px;
+    color: white;
+    font-size: larger;
+}
+
+.btn2:hover{
+    background-color: darkblue;
+}
+
+.btn2:active{
+    transform: scale(0.95); /* Makes the button shrink when clicked */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.upload a{
+    color:black;
+}
+

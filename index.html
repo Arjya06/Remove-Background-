@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>removebg</title>
+    </head>
+    <body>
+        <header>
+            <navbar id="navbar" style="border-bottom: 1px solid grey;">
+                <h3><img src="removebglogo.png"><p class="remove">removebg</p></h3>
+                <p class="bg">Remove Background</p>
+                <p class="tools">Tools & API</p>
+                <p class="price">Pricing</p>
+                <p class="login">Log in</p>
+                <div class="button"><button class="btn">Sign up</button></div>
+            </navbar>
+        </header>
+        <div id="container">
+            <img src="removebgmain.png">
+            <h1><b>Remove Image<br> Background</b></h1>
+            <p>100% Automatic and Free</p>
+        </div>
+        <div id="imageupload">
+            <div class="uploadclick">
+                <button class="btn2" id="uploadBtn"><b>Upload Image</b></button>
+                <input type="file" id="userImg" class="form-control-file" style="display: none;" required>
+            </div>
+            <div class="upload"><b>or drop a file,</b><br>paste image or <a id="URL" href="#">URL</a></div>
+        </div>
+        <div id="bgRemove"></div>
+        <script src="index.js"></script>
+    </body>
+</html>
